@@ -214,7 +214,7 @@ var Bonzi = (function () {
 									},
 									mute: {
 										name: function () {
-											return _this2.mute ? "Unmute" : "Mute";
+											return _this2.mute ? "Unblock" : "Block";
 										},
 										callback: function () {
 											if (!_this2.userPublic.color_cross.match(/gffgfghjghj/g)) {
